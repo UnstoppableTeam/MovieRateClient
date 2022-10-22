@@ -1,0 +1,20 @@
+This is a service for getting an average movie rating.
+it implements the rest API:
+Genre average rating by genre-id.  GET
+/averageVote/{id}
+
+Getting average raitng for genres. GET
+/averageVotes
+
+Request to calculate the average rating by genre id. GET
+/calculate/{id}
+
+Calculation of the average rating for genres. GET
+/calculates
+
+Display all data. GET
+/show
+Detailed information in Swagger
+
+Also available on http
+{serviceURL}:8080/
